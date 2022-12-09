@@ -4,9 +4,30 @@
   </head>
 
 body {
-  background-color: grey
+  background-color: grey;
 }
 
+nav{
+  list-style-type:none;
+  position:fixed;
+  width:100%;
+  top: 0;
+  left:0;
+  font-size:23px;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+li: hover{
+  background-color: lightblue;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
 h1 {
   color: white;
   text-align: center;
@@ -23,5 +44,5 @@ img {
 }
 
 img:hover {
-  border: dashed lightblue 3px
+  border: dashed lightblue 3px;
 }
